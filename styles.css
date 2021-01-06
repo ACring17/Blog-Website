@@ -23,6 +23,11 @@ div {
     margin: 1vh 2vw;
 }
 
+p {
+    text-indent: 2vw;
+    margin-bottom: 2vh;
+}
+
 article {
     display: grid;
     grid-template-columns: 1fr [start] 7.5in [end] 0.5in 1 fr;
