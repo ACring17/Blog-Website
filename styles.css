@@ -3,9 +3,24 @@ body * {
     margin: unset;
     box-sizing: unset;
     padding: unset;
-    font-size: unset;
     color: unset;
     text-decoration: unset;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 3vh;
+}
+
+h2 {
+    margin-left: 20px;
+    padding-bottom: 2vh;
+}
+
+div {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 1vh 2vw;
 }
 
 article {
