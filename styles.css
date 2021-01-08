@@ -28,6 +28,18 @@ p {
     margin-bottom: 2vh;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li {
+    display: flex;
+    float: left;
+    padding: 2vw;
+}
+
 article {
     display: grid;
     grid-template-columns: 1fr [start] 7.5in [end] 0.5in 1 fr;
