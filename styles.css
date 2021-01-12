@@ -52,6 +52,12 @@ article {
     }
 }
 
+time {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 2vw;
+}
+
 .center-align {
     display: flex;
     justify-content: center;
