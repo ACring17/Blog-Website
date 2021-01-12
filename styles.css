@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-    margin-left: 20px;
+    margin-left: 10px;
     padding-bottom: 2vh;
 }
 
@@ -41,14 +41,9 @@ nav li {
 }
 
 article {
-    display: grid;
-    grid-template-columns: 1fr [start] 7.5in [end] 0.5in 1 fr;
-    height: 100vh;
-    padding: 0.5in 0;
-}
-
-article * {
-    grid-column: start/end;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 1vh 2vw;
 }
 
 @media (max-width: 8.5in) {
