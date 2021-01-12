@@ -13,8 +13,7 @@ h1 {
 }
 
 h2 {
-    margin-left: 10px;
-    padding-bottom: 2vh;
+    margin: 30px 20px;
 }
 
 div {
@@ -44,6 +43,11 @@ article {
     display: flex;
     flex-flow: column wrap;
     margin: 1vh 2vw;
+    border: 3px solid black;
+}
+
+article p {
+    margin: 10px 25px;
 }
 
 @media (max-width: 8.5in) {
@@ -56,6 +60,7 @@ time {
     display: flex;
     flex-direction: row-reverse;
     padding-right: 2vw;
+    float: initial;
 }
 
 .center-align {
