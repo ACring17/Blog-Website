@@ -5,6 +5,7 @@ body * {
     padding: unset;
     color: unset;
     text-decoration: unset;
+    background-color: #e0e2db;
 }
 
 h1 {
@@ -27,6 +28,9 @@ p {
     margin-bottom: 2vh;
 }
 
+
+/*Everything above is the parent styling for the page. Will effect everything outside the article*/
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -39,11 +43,18 @@ nav li {
     padding: 2vw;
 }
 
+nav a:hover {
+    background-color: #e6af2e;
+}
+
+
+/*Below is the styling for the article elements and will change how the article is displayed.*/
+
 article {
     display: flex;
     flex-flow: column wrap;
     margin: 1vh 2vw;
-    border: 3px solid black;
+    border: 3px solid #0c7489;
 }
 
 article p {
@@ -62,6 +73,9 @@ time {
     padding-right: 2vw;
     float: initial;
 }
+
+
+/*Below are the classes and IDs used to help style specific elements*/
 
 .center-align {
     display: flex;
