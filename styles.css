@@ -26,6 +26,7 @@ div {
 p {
     text-indent: 2vw;
     margin-bottom: 2vh;
+    line-height: 1.5;
 }
 
 
@@ -72,6 +73,7 @@ time {
     flex-direction: row-reverse;
     padding-right: 2vw;
     float: initial;
+    font-weight: 600;
 }
 
 
