@@ -27,6 +27,9 @@ p {
     text-indent: 2vw;
     margin-bottom: 2vh;
     line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -78,9 +81,3 @@ time {
 
 
 /*Below are the classes and IDs used to help style specific elements*/
-
-.center-align {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
