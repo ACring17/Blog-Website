@@ -32,6 +32,23 @@ p {
     align-items: center;
 }
 
+a {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+a:link {
+    color: #0c7489;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: black;
+}
+
 
 /*Everything above is the parent styling for the page. Will effect everything outside the article*/
 
@@ -49,6 +66,12 @@ nav li {
 
 nav a:hover {
     background-color: #e6af2e;
+}
+
+nav img {
+    height: 20px;
+    width: 20px;
+    padding-right: 10px;
 }
 
 
@@ -81,3 +104,6 @@ time {
 
 
 /*Below are the classes and IDs used to help style specific elements*/
+
+
+/*Make a class or CSS rule for article links so they look different */
