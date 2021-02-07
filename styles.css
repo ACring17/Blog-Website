@@ -88,6 +88,14 @@ article p {
     margin: 10px 25px;
 }
 
+article a:link {
+    color: black;
+}
+
+article a:hover {
+    color: #e6af2e;
+}
+
 @media (max-width: 8.5in) {
     article {
         grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;
@@ -104,6 +112,3 @@ time {
 
 
 /*Below are the classes and IDs used to help style specific elements*/
-
-
-/*Make a class or CSS rule for article links so they look different */
