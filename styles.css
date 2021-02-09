@@ -11,6 +11,7 @@ body * {
 h1 {
     text-align: center;
     padding-top: 3vh;
+    font-size: 50px;
 }
 
 h2 {
@@ -80,7 +81,7 @@ nav img {
 article {
     display: flex;
     flex-flow: column wrap;
-    margin: 1vh 2vw;
+    margin: 1vh 1vw;
     border: 3px solid #0c7489;
 }
 
@@ -112,3 +113,8 @@ time {
 
 
 /*Below are the classes and IDs used to help style specific elements*/
+
+.image-center {
+    margin: auto;
+}
+
