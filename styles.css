@@ -111,6 +111,13 @@ time {
     font-weight: 600;
 }
 
+/*Footer styling*/
+
+footer {
+    margin: 2vw;
+    font-size: 1.2vw;
+}
+
 
 /*Below are the classes and IDs used to help style specific elements*/
 
