@@ -67,6 +67,7 @@ nav li {
 
 nav a:hover {
     background-color: #e6af2e;
+    padding: .5px 12px;
 }
 
 nav img {
