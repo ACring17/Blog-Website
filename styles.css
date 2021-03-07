@@ -67,7 +67,7 @@ nav li {
 }
 
 nav a:hover {
-    background-color: #e6af2e;
+    background-color: #daa520;
     padding: .5px 12px;
 }
 
@@ -96,7 +96,7 @@ article a:link {
 }
 
 article a:hover {
-    color: #e6af2e;
+    color: #daa520;
 }
 
 @media (max-width: 8.5in) {
