@@ -84,7 +84,7 @@ article {
     display: flex;
     flex-flow: column wrap;
     margin: 1vh 1vw;
-    border: 3px outset #0c7489;
+    border: 5px outset #0c7489;
 }
 
 article p {
