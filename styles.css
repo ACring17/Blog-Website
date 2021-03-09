@@ -111,6 +111,12 @@ article a:hover {
     article {
         grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;
     }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: .9rem;
+    }
 }
 
 time {
