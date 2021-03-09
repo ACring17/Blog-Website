@@ -24,6 +24,10 @@ div {
     margin: 1vh 2vw;
 }
 
+div a:hover {
+    color: #daa520;
+}
+
 p {
     text-indent: 2vw;
     margin-bottom: 2vh;
