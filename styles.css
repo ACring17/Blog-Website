@@ -62,16 +62,20 @@ a:hover {
 /*Everything above is the parent styling for the page. Will effect everything outside the article*/
 
 nav {
-    display: flex;
+    display: block;
     justify-content: space-around;
     align-items: center;
     font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    position: fixed;
+    overflow: auto;
 }
 
 nav li {
-    display: flex;
-    float: left;
-    padding: 2vw;
+    flex-direction: column;
+    list-style-type: none;
 }
 
 nav a:hover {
