@@ -30,7 +30,7 @@ div {
 
 #main {
     transition: margin-left .5s;
-    padding-left: 248px;
+    padding-left: 247px;
 }
 
 div a:hover {
@@ -118,6 +118,9 @@ article a:hover {
     color: #daa520;
 }
 
+
+/* CODE FOR SMALLER SCREENS */
+
 @media (max-width: 8.5in) {
     article {
         grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;
@@ -138,8 +141,6 @@ time {
     font-weight: 600;
 }
 
-/*Footer styling*/
-
 footer {
     margin: 2vw;
     font-size: 1.2vw;
@@ -152,3 +153,5 @@ footer {
     margin: auto;
 }
 
+
+/*Make a class or CSS rule for article links so they look different */
