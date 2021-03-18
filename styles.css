@@ -70,10 +70,11 @@ nav {
     display: block;
     justify-content: space-around;
     align-items: center;
+    background-color: #0c7489;
     font-size: 1.2rem;
     margin: 0;
     padding: 20px 20px;
-    height: 80%;
+    height: 100%;
     width: 17%;
     position: fixed;
     overflow: auto;
