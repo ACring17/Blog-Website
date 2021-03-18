@@ -28,6 +28,11 @@ div {
     margin: 1vh 2vw;
 }
 
+#main {
+    transition: margin-left .5s;
+    padding-left: 248px;
+}
+
 div a:hover {
     color: #daa520;
 }
