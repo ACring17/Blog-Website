@@ -124,6 +124,11 @@ article a:hover {
     color: #daa520;
 }
 
+.resources_links {
+    text-align: center;
+    word-wrap: normal;
+    text-indent: unset;
+}
 
 /* CODE FOR SMALLER SCREENS */
 
