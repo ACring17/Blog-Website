@@ -85,11 +85,6 @@ nav li {
     padding-bottom: 25px;
 }
 
-nav a:hover {
-    background-color: #daa520;
-    padding: .5px 12px;
-}
-
 nav img {
     height: 30px;
     width: 30px;
