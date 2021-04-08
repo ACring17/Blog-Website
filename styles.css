@@ -60,7 +60,7 @@ a:visited {
 }
 
 a:hover {
-    color: black;
+    color: #daa520;
 }
 
 
@@ -112,7 +112,7 @@ article p {
 }
 
 article a:link {
-    color: black;
+    color: #0c7489;
 }
 
 article a:hover {
