@@ -123,6 +123,8 @@ article a:hover {
     text-align: center;
     word-wrap: normal;
     text-indent: unset;
+    white-space: normal;
+    padding: 0px 25px;
 }
 
 /* CODE FOR SMALLER SCREENS */
