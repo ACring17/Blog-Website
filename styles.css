@@ -163,3 +163,149 @@ footer {
 
 
 /*Make a class or CSS rule for article links so they look different */
+
+/* CODE FOR SMALLER SCREENS */
+
+@media screen (min-width: 400px) {
+    article {
+        grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: .9rem;
+    }
+}
+
+
+/* CODE FOR LANDSCAPE MODE */
+
+@media (min-width: 568px) {
+    article {
+        grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: .9rem;
+    }
+}
+
+
+/* CODE FOR TABLET SCREENS */
+
+@media (min-width: 768px) {
+    article {
+        grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: .9rem;
+    }
+}
+
+
+/* CODE FOR SMALL DESKTOPS/LAPTOPS */
+
+@media (min-width: 1024px) {
+    article {
+        grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: .9rem;
+    }
+}
+
+
+/* CODE FOR NORMAL DESKTOPS */
+
+@media (min-width: 1300px) {
+    article {
+        grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: .9rem;
+    }
+}/* CODE FOR SMALLER SCREENS */
+
+@media screen (min-width: 400px) {
+    article {
+        grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: .9rem;
+    }
+}
+
+
+/* CODE FOR LANDSCAPE MODE */
+
+@media (min-width: 568px) {
+    article {
+        grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: .9rem;
+    }
+}
+
+
+/* CODE FOR TABLET SCREENS */
+
+@media (min-width: 768px) {
+    article {
+        grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: .9rem;
+    }
+}
+
+
+/* CODE FOR SMALL DESKTOPS/LAPTOPS */
+
+@media (min-width: 1024px) {
+    article {
+        grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: .9rem;
+    }
+}
+
+
+/* CODE FOR NORMAL DESKTOPS */
+
+@media (min-width: 1300px) {
+    article {
+        grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: .9rem;
+    }
+}
