@@ -153,6 +153,14 @@ footer {
 /* CODE FOR SMALLER SCREENS */
 
 @media screen (min-width: 400px) {
+    body,
+    body * {
+        padding: 0 10px;
+        margin: auto;
+        position: relative;
+        width: 100%;
+        max-width: 450px;
+    }
     article {
         grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;
     }
