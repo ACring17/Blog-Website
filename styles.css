@@ -161,6 +161,18 @@ footer {
         justify-content: space-around;
         align-items: center;
         font-size: .9rem;
+         padding: 10px 20px;
+    }
+    .active_page {
+        position: relative;
+        min-height: 20px;
+        min-width: 20px;
+    }
+    #main {
+        padding-left: 150px;
+    }
+    footer {
+        padding: 0 130px;
     }
 }
 
