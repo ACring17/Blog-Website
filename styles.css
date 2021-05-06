@@ -179,7 +179,7 @@ footer {
 
 /* CODE FOR LANDSCAPE MODE */
 
-@media (min-width: 568px) {
+@media screen and (min-width: 568px) {
     article {
         grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;
     }
@@ -188,6 +188,18 @@ footer {
         justify-content: space-around;
         align-items: center;
         font-size: .9rem;
+        padding: 10px 20px;
+    }
+    .active_page {
+        position: absolute;
+        min-height: 20px;
+        min-width: 20px;
+    }
+    #main {
+        padding-left: 170px;
+    }
+    footer {
+        padding: 0 220px;
     }
 }
 
