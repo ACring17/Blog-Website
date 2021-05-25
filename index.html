@@ -7,9 +7,9 @@
 </head>
 
 <body>
-<nav>
+<nav><!--Adjust the links adjust better to mobil screen. Not a fan of how they appear on a small screen. Need media query for side nav bar.-->
 <ul>
-<li><a href="index.html"><img src="images/Home_Icon2.jpeg"/>Home</a></li><!--Will need to make changes to the nav so the icon looks better highlighted-->
+<li><a href="index.html"><img src="images/Home_Icon2.jpeg"/>Home</a></li>
 <li><a href="html_archive.html"><img src="images/HTML5_Logo.png"/>HTML</a></li>
 <li><a href="css_archive.html"><img src="images/CSS3_Logo.png"/>CSS</a></li>
 <li><a href="javascript_archive.html"><img src="images/JS_Logo.png"/>JavaScript</a></li>
@@ -17,11 +17,12 @@
 <li><a href="python_archive.html"><img src="images/Python_Logo.png"/>Python</a></li>
 <li><a href="project_ideas.html"><img src="images/Light_Bulb2.png"/>Project Ideas</a></li>
 <li><a href="code_fundamentals.html"><img src="images/Coding_Icon2.jpeg"/>Coding Fundamentals</a></li>
+<!--Think of other links to incorporate into side nav, looks a little sad and empty. Maybe a photo or icon can fill out the bottom. Maybe add drop down options for each link?-->
 </ul>
-  <a href="index.html"><img class="active_page" src="images/Home_Icon2.jpeg"/></a>
+<!--Small edits to the side bar icon needed, looks slightly distorted. -->
+<a href="index.html"><img class="active_page" src="images/Home_Icon2.jpeg"/></a>
 </nav>
-  <div class="main">
-<!--Add section for learning resources found long the way. like cheat sheets and websites. Help eliminate sticky notes on desktop. Game plan on either drop down menu, maybe sub set of nav links at the top, or even seperate page altogether?-->
+<div id="main">
 <h1><em>Drew's Coding Blog</em></h1>
 <div id="intro-main">
 <h2><a href="#intro-main">Introduction</a></h2>
@@ -32,6 +33,8 @@
 <h3><strong>Below will be a catalog of Drew's projects and blog entries from newest to oldest post.</strong></h3>
 </div>
 <!--Need to work on formatting on the articles. The time of post, article content and title are spread apart too much.-->
+<!--Youtube video with some topic ideas to write article about:: https://www.youtube.com/watch?v=VfGW0Qiy2I0-->
+<!-- * VVV ADD NEW POSTS HERE VVV *-->
 <article id="twentythird-article">
 <h2><a href="code_fundamentals.html#twentythird-article"> Visual Studio Code Shortcuts</a></h2>
 <time datetime="05-12-2021">May 12, 2021</time>
@@ -51,7 +54,7 @@
 </article>
 <br/>
 <article id="twentyfirst-article">
-<h2><a href="code_fundamentals.html#twentyfirst-article">Application Programming Interfaces (APIs)</a></h2>
+<h2><a href="code_fundamentals.html#twentyfirst-article"> Application Programming Interfaces (APIs)</a></h2>
 <time datetime="05-05-2021">May. 05, 2021</time>
 <p> While watching Youtbe I came across a great video from FreeCodeCamp that teaches beginners about application programming interfaces (API). As the video explains, APIs are the functions of programs that the user learns to interact with. APIs are used to make things easier and take the away the complication of what's happening behind the scenes. Like a radio, the user knows how to work the power button, volume and station controls, but has no idea how the inner workings of the radio does that. APIs work the same but for making code.</p>
 
@@ -68,7 +71,7 @@
 </article>
 <br/>
 <article id="nineteenth-article">
-  <h2><a href="react_archive.html#nineteenth-article"> Learning through React through a tutorial</a></h2>
+<h2><a href="react_archive.html#nineteenth-article"> Learning through React through a tutorial</h2></a>
 <time datetime="04-28-2021">Apr. 28, 2021</time>
 <p> I found web developer on Youtube that had some great information on getting into web development and the basics one needs to know to be job ready for this field. I found a tutorial he posted on learning react with a simple to-do/ task-manager. I thought I would give it a try and follow along for my first react project. Though he is very knowledgeable I find that he is not a great teacher. He breezes through the code and complex ideas introduced through react without teaching what is really going on. I find it hard to keep up and kow which parts are important and find myself just copying what he types without knowing what I am really doing. </p>
 
@@ -76,15 +79,15 @@
 </article>
 <br/>
 <article id="eighteenth-article">
-<h2><a href="code_fundamentals.html#eighteenth-article"> Revisiting Old Projects</a></h2>
+<h2><a href="code_fundamentals.html#eighteenth-article"> Revisiting Old Projects</h2></a>
 <time datetime="04-19-2021">Apr. 19, 2021</time>
 <p> As I continue learning and getting closer to being job ready for the coding industry, I am going back to old projects I have created and looking over the code to see if I can make any imporvements. I was shocked at how sloppy my first project was. The organization was terrible, half of the pages were half done, and it was not very impressive. It was a fun challenge to back and mess around with structure of the HTML and CSS of the page to get a cleaner design on the page. Also worked on adding more link paths to make the navigation a lot easier for the user. </p>
 
 <p> It has been a releif to see that I have come a long way in my coding journey and that my hard work is paying off. For a while I believed that I was putting in work on my projects without learning or taking any lessons out of it. With revisiting my old project I have learned a ton of small lessons that have transfered into cleaner and better code. Seeing this has motivated me to work even harder. I will continue to push myself to learn more and learn how to become a top notch developer.  </p>
 </article>
-    <br/>
+<br/>
 <article id="seventeenth-article">
-<h2><a href="react_archive.html#seventeenth-article"> Learning React</a></h2>
+<h2><a href="react_archive.html#seventeenth-article"> Learning React</h2></a>
 <time datetime="04-09-2021">Apr. 09, 2021</time>
 <p> Now that I am feeling comfortable with the bsics of JavaScript, I feel confident enough to learn how to use React.JS. I have spent the last week watching videos and reading the documentation on how to use it and I think I am starting to see the pattern in the design. I have learned that React is a libary and not actually a framework. It makes react pretty easy to incorporate into projects. I have also learned that React can use vanilla JavaScript syntax to use most of react's methods. I am still trying to learn and understand JSX and how Babel is used to translate the code but I am slowly understanding how it all connects. </p>
 
@@ -106,7 +109,7 @@
 
 <p> This idea came to me after watching my girlfriend struggle with tracking her claoires and try and use her my fitness pal. I want to make an application that makes it easier to track and monitor the users calories. Being able to track calories is a powerful tool for people looking to lose weight or even put weight on. Though the market for calorie counters is pretty weak and has a lot of room for improvment. I feel that with my expierince in the fitness world and my new development skills put me in a unique position to make useful tool to help users track their calories. </p>
 </article>
-    <br/>
+<br/>
 <article id="fourteenth-article">
 <h2><a href="javascript_archive.html#fourteenth-article">Learning React</a></h2>
 <time datetime="03-25-2021">Mar. 25, 2021</time>
@@ -137,7 +140,7 @@
 <p>For the second company their main issue is that they have not updated their website since the 90's/early 2000's. Very dated looking and pretty slow and clunky navigation. This website would be fun to redesign and freshen up so that it looks modern and and speed up the use of the site. Maybe have some connection to the social media accounts for the website. Both these sites would be a fun challenge and could be a great opportunity to help my past employers.</p>
 </article>
 <br/>
-<article id="eleventh-article">
+<article id="eleventh-article"><!--Spell check current-->
 <h2><a href="python_archive.html#eleventh-article">Python Path</a></h2>
 <time datetime="03-11-2021">Mar. 11, 2021</time>
 <p>When I first started learning to code, I relied on the opnion of people in coding community formums and YouTube to decide which language I should start with. The general opinion was that python is the future of coding and would be a great language to start with. I spent about 3 months reading and watching tutorials to try and grasp the concepts that make python. While the syntax was easy to understand and construct, I found it really challenging figuring out what I could do with these data structures. </p>
@@ -179,7 +182,7 @@
 <p> The way I envisoned the application working is the user can put in a search radius they are willing to travel, and the application will compile a list of every music event going on in the area and list the events in order of date with shows for the day coming up at the top of the search. I would like to have some filters for the application to help users find more specific events. For example, if they want only festivals, a specific genre of music, or to even narrow down a specifiv venue if the user knows where the artists are gonna play. This could be a super helpful tool to help make music expieriences more accessible for all. </p>
 </article>
 <br/>
-<article id="sixth-article"><!--Will need to revise this article and give some more deoth on this topic. pretty shallow article.-->
+<article id="sixth-article"><!--Will need to revise this article and give some more depth on this topic. pretty shallow article.-->
 <h2><a href="html_archive.html#sixth-article">Understanding HTML</a></h2>
 <time datetime="02-26-2021">Feb. 26, 2021</time>
 <p> The way I view HTML is our way of communicating to the machine how to label each bit of data we want to display for the user. The programmer can be as creative as they want to be with the tags, they want to use for each piece of data they feed into the mahine. Though if the programmer gets too creative it can confuse other programmers that will look at the code next. I have learned that there is plenty of speicalty tags to give each piece of information so that you can manipulate with css rules later and can get real creatvie with the webpage design. </p>
@@ -229,19 +232,20 @@
 <article id="first-article"><!--Will need better tags once I figure out a way to submit articles.-->
 <h2><a href="html_archive.html#first-article">Learning HTML</a></h2>
 <time datetime="01-12-2021">Jan. 12, 2021</time>
-After spending a couple months struggling to learn and understand python. A friend in the tech industry told me to look into learning front end design. He informed me that HTML, CSS, and JavaScript are the building blocks to almost every website on the internet. After doing some research on forums, videos, and blogs, I decided it was time to change gears and focus on learning the core languages of front-end web design. Starting with HTML. </p>
+<p>After spending a couple months struggling to learn and understand python. A friend in the tech industry told me to look into learning front end design. He informed me that HTML, CSS, and JavaScript are the building blocks to almost every website on the internet. After doing some research on forums, videos, and blogs, I decided it was time to change gears and focus on learning the core languages of front-end web design. Starting with HTML. </p>
 
 <p>HTML was very encouraging early on. After really struggling with understanding the concepts of python, it was nice to see the simplicity of using HTML. I learned that it is a mark-up language that is used to help the browser understand the main content of the web page. A way for the programmer to communicate to the browser what the label of each section should be. HTML took only a week or so to fully understand what the concepts were. HTML is not a very flashy language to learn but it is important to understand so that thte foundation of the website is solid and organized. I visualize HTML to be the bones of the site and that having solid structure and organization will really help out later when the web site gets more complex. </p>
 </article>
 
-<footer>
+
+<footer><!--Add logos and icons for github and linked in links. Add more flair and such. Realizing my site seems rather boring-->
 <p>Created by Andrew Cring</p>
 <a href="https://www.linkedin.com/in/andrew-cring-57a558130/"><img src="images/linkedin_logo.png" width="50px" height="50px"/>
 <address>LinkedIn: Andrew Cring</a></address>
 <a href="https://github.com/ACring17"><img src="images/github_logo.png" width="50px" height="50px"/>
 <address>Github: Andrew Cring</a></address>
 </footer>
-  </div>
+</div>
 <script src="blog.js"></script>
 </body>
 <html>
