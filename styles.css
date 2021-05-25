@@ -98,6 +98,7 @@ nav img {
     padding-left: 20%;
 }
 
+
 /*Below is the styling for the article elements and will change how the article is displayed.*/
 
 article {
@@ -118,6 +119,9 @@ article a:link {
 article a:hover {
     color: #daa520;
 }
+
+
+/* Use this class for when the resource page gets too long and needs adjustments. Currently on JS resources */
 
 .resources_links {
     text-align: center;
@@ -148,11 +152,12 @@ footer {
 }
 
 
-/*Make a class or CSS rule for article links so they look different */
-
 /* CODE FOR SMALLER SCREENS */
 
-@media screen (min-width: 400px) {
+
+/* Still need to work on the active page image, not sitting in the right spot, temporary fix is making it absolute in position. Not sure where it went though.  */
+
+@media screen and (min-width: 400px) {
     article {
         grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;
     }
@@ -161,7 +166,7 @@ footer {
         justify-content: space-around;
         align-items: center;
         font-size: .9rem;
-         padding: 10px 20px;
+        padding: 10px 20px;
     }
     .active_page {
         position: absolute;
@@ -236,6 +241,7 @@ footer {
     }
 }
 
+
 /* CODE FOR SMALL DESKTOPS/LAPTOPS */
 
 @media (min-width: 1024px) {
@@ -278,12 +284,35 @@ footer {
 
 @media (min-width: 1300px) {
     article {
-        grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;
+        display: flex;
+        flex-flow: column wrap;
+        margin: 1vh 1vw;
+        border: 5px outset #0c7489;
     }
     nav {
-        display: flex;
+        display: block;
         justify-content: space-around;
         align-items: center;
-        font-size: .9rem;
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 20px 20px;
+        height: 100%;
+        width: 17%;
+        position: fixed;
+        overflow: auto;
+    }
+    .active_page {
+        height: 11%;
+        width: 45%;
+        padding-top: 100%;
+        padding-left: 20%;
+    }
+    #main {
+        transition: margin-left .5s;
+        padding-left: 247px;
+    }
+    footer {
+        margin: 2vw;
+        font-size: 1.2vw;
     }
 }
