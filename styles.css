@@ -5,7 +5,14 @@ body * {
     padding: unset;
     color: unset;
     text-decoration: unset;
+}
+
+body{
     background-color: #e0e2db;
+}
+
+.odd-article {
+    background-color: #e7f9fc;
 }
 
 h1 {
